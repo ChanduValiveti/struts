@@ -14,7 +14,9 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 -->
+
 <title>Find User</title>
+<%@ taglib prefix="s" uri="/struts-tags" %>
 <s:form action="findUser">
     <s:textfield name="id" label="Enter ID *" required="true"/>
     <s:submit/>
